@@ -1,0 +1,151 @@
+body{
+background-color: rgb(143, 192, 192);
+display: flex;
+height: 100vh;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.container{
+    
+
+}
+
+
+form{
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding: 4vw;
+
+    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+    color: rgba(20, 107, 88, 0.45);
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.container_receber{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    
+}
+
+.receber{
+    display: flex;
+    flex-direction: column;
+}
+
+.receber span{
+    color: rgba(20, 107, 88, 0.45);
+    text-align: center;
+}
+
+button{
+    background-color: rgba(20, 107, 88, 0.45);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(74, 158, 140, 0.45)
+}
+
+.container_butao{
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input{
+    text-align: center;
+    border-radius: none;
+    padding:4px ;
+    border:solid 2px rgba(74, 158, 140, 0.45) ;
+}
+
+input:focus {
+    outline: none;
+  }
+
+.imc{
+    background-color: rgba(74, 158, 140, 0.45);
+    color: white;
+    padding: 14px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    gap: 4px;
+}
+
+
+.verde{
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+
+
+li span {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ li small{
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+ }
+
+ li{
+    padding: 4px;
+    width: 100px;
+    
+ }
+
+ .fundo-branco {
+    border: 4px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    
+  }
+
+  .fundo-azul {
+    background-color: rgb(91, 150, 228);
+  }
+  .fundo-verde {
+    background-color: rgb(0, 255, 179);
+  }
+  .fundo-amarelo {
+    background-color: rgb(241, 238, 3);
+  }
+  .fundo-laranja {
+    background-color: rgb(255, 136, 0);
+  }
+  .fundo-vermelho {
+    background-color: rgb(238, 62, 39);
+  }
